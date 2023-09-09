@@ -1,0 +1,100 @@
+.App-todo {
+    text-align: center;
+}
+
+.todo-container .header {
+    background-color: #befff7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.todo-container .header .btn-add {
+    background-color: #3498db; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-add:hover {
+    background-color: #2980b9;
+}
+
+.modal-body {
+    height: 250px;
+}
+
+textarea {
+    height: 120px;
+}
+.form-group.des {
+    margin-top: 20px;
+}
+.ListToDo {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.todo-card {
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.todo-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.edit-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 6px;
+}
+
+.delete-button {
+    background-color: #ff0e19;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.delete-button:hover {
+    background-color: #ff4455;
+}
+.edit-button:hover {
+    background-color: #2980b9;
+}
+
+table,
+th,
+td {
+    border: 1px solid #009879;
+}
